@@ -1,0 +1,65 @@
+// constructor(props) {
+    //         super(props);
+    //         this.state = {
+    //             notes: getInitialData(),
+    //         }
+    
+    //         this.onDeleteHandler = this.onDeleteHandler.bind(this);
+    //         this.onAddNoteHandler = this.onAddNoteHandler.bind(this);
+            
+    //     }
+    //     onDeleteHandler(id) {
+    //         const notes = this.state.notes.filter(note => note.id !== id);
+    //         this.setState({ notes });
+    //     }
+    //     onAddNoteHandler({ title, body}) {
+    //         this.setState((prevState) => {
+    //             return {
+    //                 notes: [
+    //                     ...prevState.notes,
+    //                 {
+    //                     id: +new Date(),
+    //                     title,
+    //                     body,
+    //                     createdAt: new Date().toJSON(),
+    //                     archived: false,
+    //                 }
+    //                 ]
+    //             }
+                
+    //         })
+    //     }
+
+    //     render() {
+    //         return (
+    //             <div className="note-app__body">
+    //                 <NoteInput />
+    //                 <h2>Catatan Aktif</h2>
+    //                 <NotesList notes={this.state.notes} onDelete={this.onDeleteHandler} />
+    //             </div>
+    //             )
+    //     }
+// }
+
+// <NotesList notes={this.state.notes} onDelete={this.onDeleteHandler} /> 
+
+
+    // onAddNoteHandler({ title, body}) {
+    //     this.setState((prevState) => {
+    //         return {
+    //             notes: [
+    //                 ...prevState.notes,
+    //             {
+    //                 id: +new Date(),
+    //                 title,
+    //                 body,
+    //                 createdAt: new Date().toJSON(),
+    //                 archived: false,
+    //             }
+    //             ]
+    //         }
+            
+    //     })
+    // }
+
+    // this.onAddNoteHandler = this.onAddNoteHandler.bind(this);
